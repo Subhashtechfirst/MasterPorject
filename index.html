@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nav Bar</title>
+	<style>
+
+		/*Nav CSS Start Here*/
+		body{
+			padding: 0rem 10rem;
+			background-color: #e5e4e2;
+			
+		}
+		*{
+			font-family: Garamond;
+			font-size: 25px;
+			color: #04415f;
+		}
+		.navbar{}
+		.nav-section{
+			display: flex;
+		}
+		.nav-first-chaild{
+
+			flex: 1;
+
+		}
+		.nav-button{
+			background-color: #04415f;
+			border-color: #04415f;
+			color: white;
+			padding: 7px 21px;
+			margin: 10px;
+		}
+		.nav-second-chaild{
+			text-align: right;
+			/*flex: 2;*/
+		}
+		.nav-ul{}
+		.nav-li{
+			display: inline;
+			padding: 10px;
+			color: #167fb3;
+		}
+		.nav-select{
+			border: none;
+			color:  #167fb3;
+			background-color: transparent;
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<section class="nav-section">
+			<div class="nav-first-chaild">
+				<button class="nav-button">College</button>
+			</div>
+			<div class="nav-second-chaild">
+				<ul class="nav-ul">
+					<li class="nav-li">Home</li>
+					<select class="nav-select">
+						<option class="nav-option">About</option>
+					</select>
+					<li class="nav-li">Student Life</li>
+					<li class="nav-li">News</li>
+					<li class="nav-li">Events</li>
+					<li class="nav-li">Alumni</li>
+					<select class="nav-select">
+						<option class="nav-option">More Pages</option>
+					</select>
+					<select class="nav-select">
+						<option class="nav-option">Dropdown</option>
+					</select>
+					<li class="nav-li">Contact</li>
+				</ul>
+			</div>
+		</section>
+	</nav>
+
+</body>
+</html>
